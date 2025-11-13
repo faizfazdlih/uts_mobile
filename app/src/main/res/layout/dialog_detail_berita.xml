@@ -47,7 +47,7 @@
                 android:text="Judul Berita yang Menarik dan Informatif"
                 android:textSize="22sp"
                 android:textStyle="bold"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:lineSpacingExtra="4dp"
                 android:layout_marginBottom="12dp" />
 

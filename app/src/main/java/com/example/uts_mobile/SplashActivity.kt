@@ -17,7 +17,7 @@ class SplashActivity : AppCompatActivity() {
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.tvAppName.text = "UTS Mobile"
+        binding.tvAppName.text = "Horologium"
         binding.tvName.text = "Faiz Fazdlih"
         binding.tvNim.text = "152023080"
         binding.ivProfile.setImageResource(R.drawable.faiz)

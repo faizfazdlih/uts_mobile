@@ -80,7 +80,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-black"
                         android:letterSpacing="0.02"
-                        android:text="UTS MOBILE"
+                        android:text="Horologium"
                         android:textColor="#9CA3AF"
                         android:textSize="24sp"
                         android:textStyle="bold" />
