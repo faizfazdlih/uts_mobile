@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">uts_mobile</string>
+    <string name="biodata">Biodata</string>
+    <string name="kontak">Kontak</string>
+    <string name="kalkulator">Kalkulator</string>
+    <string name="cuaca">Cuaca</string>
+    <string name="berita">Berita</string>
+    <string-array name="list_kota">
+        <item>Bandung</item>
+        <item>Jakarta</item>
+        <item>Surabaya</item>
+        <item>Yogyakarta</item>
+        <item>Bali</item>
+    </string-array>
+</resources>

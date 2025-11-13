@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bottom_nav_background">#FFFFFF</color>
+    <color name="bottom_nav_background_dark">#1E1E1E</color>
+
+    <color name="bottom_nav_icon_selected">#6200EE</color>
+    <color name="bottom_nav_icon_unselected">#757575</color>
+
+    <color name="bottom_nav_text_selected">#6200EE</color>
+    <color name="bottom_nav_text_unselected">#757575</color>
+
+    <color name="bottom_nav_ripple">#E0E0E0</color>
+
+    <color name="indicator_color">#E3F2FD</color>
+
+    <color name="blue_primary">#6FA3EF</color>
+    <color name="blue_card">#5B8FDB</color>
+    <color name="blue_detail">#4B7DC8</color>
+    <color name="blue_light">#B3D9FF</color>
+    <color name="white">#FFFFFF</color>
+</resources>

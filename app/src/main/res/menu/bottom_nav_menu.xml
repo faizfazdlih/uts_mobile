@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_biodata"
+        android:title="@string/biodata"
+        android:icon="@drawable/ic_person"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/nav_kontak"
+        android:title="@string/kontak"
+        android:icon="@drawable/ic_contacts"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/nav_kalkulator"
+        android:title="@string/kalkulator"
+        android:icon="@drawable/ic_calculator"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/nav_cuaca"
+        android:title="@string/cuaca"
+        android:icon="@drawable/ic_weather"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/nav_berita"
+        android:title="@string/berita"
+        android:icon="@drawable/ic_news"
+        android:enabled="true" />
+</menu>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_kontak"
+    android:paddingBottom="80dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Halaman Kalkulator"
+        android:textSize="19sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:padding="24dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tvExpression"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text=""
+                android:textColor="#9E9E9E"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-medium"
+                android:minHeight="28dp"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp" />
+
+            <TextView
+                android:id="@+id/tvDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="0"
+                android:textColor="#1A1A1A"
+                android:textSize="56sp"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="8dp"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:maxLines="1"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="32sp"
+                android:autoSizeMaxTextSize="56sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <GridLayout
+        android:id="@+id/gridButtons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <Button android:id="@+id/btnAC" android:text="AC" style="@style/CalcButtonFunction" />
+        <Button android:id="@+id/btnSign" android:text="±" style="@style/CalcButtonFunction" />
+        <Button android:id="@+id/btnPercent" android:text="%" style="@style/CalcButtonFunction" />
+        <Button android:id="@+id/btnDivide" android:text="÷" style="@style/CalcButtonOperator" />
+
+        <Button android:id="@+id/btn7" android:text="7" style="@style/CalcButtonNumber" />
+        <Button android:id="@+id/btn8" android:text="8" style="@style/CalcButtonNumber" />
+        <Button android:id="@+id/btn9" android:text="9" style="@style/CalcButtonNumber" />
+        <Button android:id="@+id/btnMultiply" android:text="×" style="@style/CalcButtonOperator" />
+
+        <Button android:id="@+id/btn4" android:text="4" style="@style/CalcButtonNumber" />
+        <Button android:id="@+id/btn5" android:text="5" style="@style/CalcButtonNumber" />
+        <Button android:id="@+id/btn6" android:text="6" style="@style/CalcButtonNumber" />
+        <Button android:id="@+id/btnMinus" android:text="−" style="@style/CalcButtonOperator" />
+
+        <Button android:id="@+id/btn1" android:text="1" style="@style/CalcButtonNumber" />
+        <Button android:id="@+id/btn2" android:text="2" style="@style/CalcButtonNumber" />
+        <Button android:id="@+id/btn3" android:text="3" style="@style/CalcButtonNumber" />
+        <Button android:id="@+id/btnPlus" android:text="+" style="@style/CalcButtonOperator" />
+
+        <Button android:id="@+id/btn0" android:text="0" style="@style/CalcButtonNumber" />
+        <Button android:id="@+id/btnComma" android:text="." style="@style/CalcButtonNumber" />
+        <Button android:id="@+id/btnSquare" android:text="x²" style="@style/CalcButtonSpecial" />
+        <Button android:id="@+id/btnSqrt" android:text="√" style="@style/CalcButtonSpecial" />
+
+    </GridLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#007AFF">
+
+        <Button
+            android:id="@+id/btnEqual"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/ripple_equal"
+            android:fontFamily="sans-serif-medium"
+            android:stateListAnimator="@null"
+            android:text="="
+            android:textColor="#FFFFFF"
+            android:textSize="28sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

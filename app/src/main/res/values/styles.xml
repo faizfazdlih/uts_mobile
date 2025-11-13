@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavTextActive" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BottomNavTextInactive" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="BottomNavActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/indicator_color</item>
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+    </style>
+
+    <style name="CalcButtonBase">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">3dp</item>
+        <item name="android:translationZ">0dp</item>
+    </style>
+
+    <style name="CalcButtonNumber" parent="CalcButtonBase">
+        <item name="android:background">@drawable/button_number</item>
+        <item name="android:textColor">#1A1A1A</item>
+    </style>
+
+    <style name="CalcButtonOperator" parent="CalcButtonBase">
+        <item name="android:background">@drawable/button_operator</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="CalcButtonFunction" parent="CalcButtonBase">
+        <item name="android:background">@drawable/button_function</item>
+        <item name="android:textColor">#1A1A1A</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CalcButtonSpecial" parent="CalcButtonBase">
+        <item name="android:background">@drawable/button_special</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TopRoundedImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">20dp</item>
+        <item name="cornerSizeTopRight">20dp</item>
+    </style>
+
+
+</resources>
